@@ -56,7 +56,7 @@ sudo nano /etc/hosts
 Add:
 
 ```
-45.79.181.197    kibana.com
+your-ip    kibana.com
 ```
 
 Replace with your actual IP.

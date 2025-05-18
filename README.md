@@ -1,4 +1,3 @@
-
 # Raspberry Pi Honeypot Dashboard Viewer
 
 This project turns a Raspberry Pi 4 into a dedicated, full-screen threat intelligence dashboard for viewing live attacks from a T-Pot honeypot instance hosted on Linode.
@@ -7,8 +6,11 @@ This project turns a Raspberry Pi 4 into a dedicated, full-screen threat intelli
 
 This project assumes you already have a working T-Pot honeypot deployment in the cloud (e.g., Linode, DigitalOcean, etc.) that exposes Kibana on a public IP and port (default: 64297).
 
-**If you don’t have that yet, follow this guide to get your cloud instance online first:**
+**If you don’t have that yet, follow this guide to get your cloud instance online first:** 
 👉 [T-Pot Threat Intel Lab Setup](https://github.com/un1xr00t/tpot-threat-intel-lab)
+
+**If you rather use firefox, go here for the setup instead:**
+👉 [FireFox Method](https://github.com/un1xr00t/pi-honeypot-dashboard/edit/main/README.md)
 
 ---
 
@@ -25,6 +27,7 @@ This project assumes you already have a working T-Pot honeypot deployment in the
 ## Requirements
 
 - Raspberry Pi 4 (4GB or 8GB recommended)
+- Highly recommend to use a Raspberry Pi 5 to fix the lag, the Raspberry Pi 4 is the absolute minimum
 - Raspberry Pi OS (with Desktop)
 - Access to a running T-Pot honeypot (Kibana endpoint)
 - HDMI display, keyboard/mouse (for setup)
@@ -130,6 +133,13 @@ sudo reboot
 ```
 
 Your Pi will boot directly into the LXDE desktop, auto-launch Chromium, and display your live Kibana honeypot dashboard in full-screen kiosk mode.
+
+---
+
+## 📎 Optional Firefox Setup
+
+If you’d rather use **Firefox with saved credentials and full profile support**, see this guide:  
+👉 [Firefox Method (GitHub)](https://github.com/un1xr00t/pi-honeypot-dashboard/blob/main/firefox-method.md)
 
 ---
 

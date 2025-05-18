@@ -10,7 +10,7 @@ This project assumes you already have a working T-Pot honeypot deployment in the
 👉 [T-Pot Threat Intel Lab Setup](https://github.com/un1xr00t/tpot-threat-intel-lab)
 
 **If you rather use firefox, go here for the setup instead:**
-👉 [FireFox Method](https://github.com/un1xr00t/pi-honeypot-dashboard/edit/main/README.md)
+👉 [FireFox Method](https://github.com/un1xr00t/pi-honeypot-dashboard/main/README.md)
 
 ---
 

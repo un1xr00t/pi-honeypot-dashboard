@@ -7,6 +7,7 @@ Turn your Raspberry Pi into a full-screen kiosk that auto-launches a saved Kiban
 ## 🛠️ Requirements
 
 - Raspberry Pi 4 (or equivalent)
+- Highly recommend to use a Raspberry Pi 5 to fix the lag, the Raspberry Pi 4 is the absolute minimum
 - Raspberry Pi OS (Desktop)
 - A monitor connected to the Pi
 - An existing Kibana instance with Basic Auth enabled (e.g., via T-Pot)
